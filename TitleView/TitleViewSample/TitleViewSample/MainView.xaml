@@ -6,5 +6,4 @@
   <local:ExtendedContentPage.TitleView>
     <Button x:Name="TestButton" Text="Test" BackgroundColor="Green" />
   </local:ExtendedContentPage.TitleView>
-	<Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
 </local:ExtendedContentPage>
