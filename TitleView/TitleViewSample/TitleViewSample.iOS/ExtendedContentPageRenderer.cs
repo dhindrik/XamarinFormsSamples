@@ -10,7 +10,7 @@ using Xamarin.Forms;
 using TitleViewSample.iOS;
 using TitleViewSample;
 
-[assembly: ExportRenderer(typeof(MainView), typeof(ExtendedContentPageRenderer))]
+[assembly: ExportRenderer(typeof(ExtendedContentPage), typeof(ExtendedContentPageRenderer))]
 namespace TitleViewSample.iOS
 {
     public class ExtendedContentPageRenderer : PageRenderer
