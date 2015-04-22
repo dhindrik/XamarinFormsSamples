@@ -2,4 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/TitleView
+/TitleView/packages
+*.suo
+/TitleView/TitleViewSample/TitleViewSample/bin/Debug
+/TitleView/TitleViewSample/TitleViewSample/obj/Debug
+/TitleView/TitleViewSample/TitleViewSample.iOS/bin
+/TitleView/TitleViewSample/TitleViewSample.iOS/obj
+*.user
