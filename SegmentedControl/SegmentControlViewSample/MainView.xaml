@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:SegmentControlViewSample;assembly=SegmentControlViewSample"
+	x:Class="SegmentControlViewSample.MainView" Title="Sample">
+	<ContentPage.Content>
+	<StackLayout Padding="10">
+		<Label Text="Filter" />
+		<local:FilterControl TintColor="Red" SelectedIndex="{Binding Filter}" x:Name="Filter" />
+		<StackLayout Orientation="Horizontal">
+		<Label Text="Selected index: " />
+		<Label Text="{Binding Filter}" />
+		</StackLayout>
+	</StackLayout>
+		
+	</ContentPage.Content>
+</ContentPage>
