@@ -58,7 +58,7 @@ namespace SegmentControlViewSample.iOS
 				}
 			}
 
-			if (e.PropertyName == FilterControl.ItemsProperty.PropertyName) 
+			if (e.PropertyName == FilterControl.ItemsSourceProperty.PropertyName) 
 			{
 				UpdateSegments ();
 			}
