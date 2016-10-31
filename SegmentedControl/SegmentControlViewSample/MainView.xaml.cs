@@ -16,7 +16,7 @@ namespace SegmentControlViewSample
 
 			var items = new List<string> (){ "All", "New", "Old" };
 
-			Filter.Items = items;
+			Filter.ItemsSource = items;
 		}
 
 		public class ViewModel : INotifyPropertyChanged
